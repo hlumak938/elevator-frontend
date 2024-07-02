@@ -1,0 +1,30 @@
+.TextFieldFloorsContainer {
+  margin-right: 80%;
+}
+
+.AddressContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 2% 80% 0 0;
+}
+
+.FieldSetContainer > div {
+  margin-bottom: 10px;
+  margin-right: 60%;
+}
+
+
+.FieldSetContainer legend {
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.ButtonGroupContainer {
+  position: fixed;
+  bottom: 60px;
+  right: 70px;
+}
+

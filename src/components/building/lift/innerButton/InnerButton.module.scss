@@ -1,0 +1,28 @@
+button.button {
+  position: relative;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: .2s;
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+
+  span {
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    font-size: 12px;
+  }
+
+  &.pressed {
+    transform: scale(.9);
+    cursor: not-allowed !important;
+    pointer-events: all !important;
+  }
+}

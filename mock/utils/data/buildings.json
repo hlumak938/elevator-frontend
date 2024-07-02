@@ -1,0 +1,74 @@
+[
+  {
+    "id": 3,
+    "address": {
+      "city": "Kharkiv",
+      "street": "Sumskaya",
+      "buildingNumber": 7
+    },
+    "floorCount": 6,
+    "floors": null,
+    "lifts": [
+      {
+        "id": 1,
+        "cabinPosition": 0,
+        "status": "FREE",
+        "cabin": {
+          "serialNumber": "CA12345",
+          "door": {
+            "id": "CA12345",
+            "doorStatus": "CLOSED"
+          },
+          "type": "small",
+          "id": "CA12345"
+        },
+        "engine": {
+          "serialNumber": "ENG12345",
+          "type": "powerful",
+          "status": "STOPPED",
+          "id": "ENG12345"
+        },
+        "buttonTemplate": "UP_DOWN",
+        "floorNumbers": [],
+        "liftListenerList": [],
+        "buildingId": 3
+      }
+    ],
+    "freeLift": {
+      "id": 1,
+      "cabinPosition": 0,
+      "status": "FREE",
+      "cabin": {
+        "serialNumber": "CA12345",
+        "door": {
+          "id": "CA12345",
+          "doorStatus": "CLOSED"
+        },
+        "type": "small",
+        "id": "CA12345"
+      },
+      "engine": {
+        "serialNumber": "ENG12345",
+        "type": "powerful",
+        "status": "STOPPED",
+        "id": "ENG12345"
+      },
+      "buttonTemplate": "UP_DOWN",
+      "floorNumbers": [],
+      "liftListenerList": [],
+      "buildingId": 3
+    }
+  },
+  {
+    "id": 4,
+    "address": {
+      "city": "Kyiv",
+      "street": "Kyivska",
+      "buildingNumber": 23
+    },
+    "floorCount": 14,
+    "floors": null,
+    "lifts": [],
+    "freeLift": null
+  }
+]

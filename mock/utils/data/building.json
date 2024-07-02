@@ -1,0 +1,119 @@
+{
+  "id": 1,
+  "address": {
+    "city": "Kharkiv",
+    "street": "Sumskaya",
+    "buildingNumber": 7
+  },
+  "floorCount": 10,
+  "floors": [
+    {
+      "id": 1001,
+      "number": 1
+    },
+    {
+      "id": 1002,
+      "number": 2
+    },
+    {
+      "id": 1003,
+      "number": 3
+    },
+    {
+      "id": 1004,
+      "number": 4
+    },
+    {
+      "id": 1005,
+      "number": 5
+    },
+    {
+      "id": 1006,
+      "number": 6
+    },
+    {
+      "id": 1007,
+      "number": 7
+    },
+    {
+      "id": 1008,
+      "number": 8
+    },
+    {
+      "id": 1009,
+      "number": 9
+    },
+    {
+      "id": 1010,
+      "number": 10
+    }
+  ],
+  "lifts": [
+    {
+      "id": 1,
+      "cabinPosition": 1,
+      "status": "FREE",
+      "cabin": {
+        "serialNumber": "ACA1234512",
+        "door": {
+          "id": "ACA1234512",
+          "doorStatus": "CLOSED"
+        },
+        "type": "small",
+        "id": "ACA1234512"
+      },
+      "engine": {
+        "serialNumber": "ENG0234512",
+        "type": "powerful",
+        "status": "STOPPED",
+        "id": "ENG0234512"
+      },
+      "buttonTemplate": "UP_DOWN",
+      "buildingId": 1
+    },
+    {
+      "id": 2,
+      "cabinPosition": 3,
+      "status": "FREE",
+      "cabin": {
+        "serialNumber": "CA1234512",
+        "door": {
+          "id": "CA1234512",
+          "doorStatus": "OPENED"
+        },
+        "type": "small",
+        "id": "CA1234512"
+      },
+      "engine": {
+        "serialNumber": "ENS1234512",
+        "type": "powerful",
+        "status": "STOPPED",
+        "id": "ENS1234512"
+      },
+      "buttonTemplate": "UP_DOWN",
+      "buildingId": 1
+    },
+    {
+      "id": 3,
+      "cabinPosition": 5,
+      "status": "FREE",
+      "cabin": {
+        "serialNumber": "CB1234512",
+        "door": {
+          "id": "CB1234512",
+          "doorStatus": "CLOSED"
+        },
+        "type": "small",
+        "id": "CB1234512"
+      },
+      "engine": {
+        "serialNumber": "ENG12345122",
+        "type": "powerful",
+        "status": "STOPPED",
+        "id": "ENG12345122"
+      },
+      "buttonTemplate": "UP_DOWN",
+      "buildingId": 1
+    }
+  ]
+}

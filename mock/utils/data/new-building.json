@@ -1,0 +1,35 @@
+{
+  "id": 1,
+  "address": {
+    "city": "Kharkiv",
+    "street": "Sumskaya",
+    "buildingNumber": 13
+  },
+  "floorCount": 6,
+  "floors": [
+    {
+      "id": 1001,
+      "number": 1
+    },
+    {
+      "id": 1002,
+      "number": 2
+    },
+    {
+      "id": 1003,
+      "number": 3
+    },
+    {
+      "id": 1004,
+      "number": 4
+    },
+    {
+      "id": 1005,
+      "number": 5
+    },
+    {
+      "id": 1006,
+      "number": 6
+    }
+  ]
+}

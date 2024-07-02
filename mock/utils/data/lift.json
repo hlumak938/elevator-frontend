@@ -1,0 +1,24 @@
+{
+  "id": 1,
+  "cabinPosition": 0,
+  "status": "FREE",
+  "cabin": {
+    "serialNumber": "CA12345",
+    "door": {
+      "id": "CA12345",
+      "doorStatus": "CLOSED"
+    },
+    "type": "small",
+    "id": "CA12345"
+  },
+  "engine": {
+    "serialNumber": "ENG12345",
+    "type": "powerful",
+    "status": "STOPPED",
+    "id": "ENG12345"
+  },
+  "buttonTemplate": "UP_DOWN",
+  "floorNumbers": [],
+  "liftListenerList": [],
+  "buildingId": 1
+}

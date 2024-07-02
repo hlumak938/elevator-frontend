@@ -1,0 +1,11 @@
+.building {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  text-align: left;
+  min-height: 100vh;
+}
+
+.building, .building * {
+  box-sizing: border-box;
+}

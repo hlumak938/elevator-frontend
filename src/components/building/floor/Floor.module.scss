@@ -1,0 +1,60 @@
+.floor {
+  height: calc(var(--floor-height) - 1px);
+  max-height: 300px;
+  background-color: #a4b0be;
+  position: relative;
+  border-bottom: 1px solid #0f0f0f;
+  display: flex;
+  align-items: center;
+}
+
+.floor:last-child {
+  border-bottom: 0;
+  height: var(--floor-height);
+}
+
+.floor:nth-child(2n) {
+  background-color: #747d8c;
+}
+
+.number {
+  // text-align: center;
+  // position: absolute;
+  // left: 30px;
+  // top: 50%;
+  // transform: translateY(-50%);
+  font-size: 75px;
+  line-height: 75px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.floorButtons {
+  display: flex;
+  gap: 5px;
+  position: relative;
+  z-index: 2;
+}
+
+
+.floorButton {
+  color: #fff;
+  padding: 4px;
+  transition: .2s;
+}
+
+.floorButton.pressed {
+  transform: scale(.9);
+  cursor: not-allowed !important;
+  pointer-events: all !important;
+}
+
+.floorInfo {
+  width: fit-content;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 15px;
+}

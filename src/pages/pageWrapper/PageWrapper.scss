@@ -1,0 +1,22 @@
+.PageWrapper {
+  max-width: 90vw;
+  margin: 0 auto;
+}
+
+.PageHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px 65px;
+
+  .PageTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .PageButton {
+    display: flex;
+    align-items: center;
+  }
+
+}
